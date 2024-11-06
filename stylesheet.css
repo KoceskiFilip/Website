@@ -1,0 +1,178 @@
+.row {
+    background-color: lavender
+}
+
+.col1 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: silver;
+
+}
+
+.col2 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: green;
+
+}
+
+.col3 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: blue;
+
+}
+
+.col4 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: red;
+
+}
+
+.col5 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: darkgreen;
+
+}
+.col6 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: rgb(0, 217, 255);
+
+}
+
+.col7 {
+
+    margin: 3px;
+
+    min-height: 300px;
+
+    text-align: center;
+
+    background-color: rgb(220, 240, 245);
+
+}
+
+.colinside {
+
+    min-height: 100px;
+
+    text-align: center;
+
+    background-color: orange;
+
+}
+
+#test{
+
+    margin:5px;
+    
+    }
+
+    .logo-container {
+        display: grid;
+        place-items: center; Centers both horizontally and vertically
+        height: 50vh;       /* Full height of the viewport */
+      }
+      
+      .logo {
+        width: 50px;
+        height: auto;
+      }
+
+
+      .row {background-color:lavender}
+      .col1{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:silver;
+      
+      }
+      .col2{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:#faebd7;
+      
+      }
+      .col3{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:skyblue;
+      
+      }
+      .col4{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:red;
+      
+      }
+      .col5{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:darkgreen;
+      
+      }
+      
+      .col6{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:orange;
+      
+      }
+      .col7{
+      
+      margin:3px;
+      min-height:300px;
+      text-align:center;
+      background-color:beige;
+      
+      }
+      #test{
+      
+      margin:5px;
+      
+      }

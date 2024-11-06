@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        .bg-section {
+            background-image: url('prespansko-ezero-1.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(64, 253, 222);
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .half-section {
+            position: relative;
+            text-align: center;
+            color: rgb(64, 253, 222);
+        }
+
+        .half-section img {
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .half-section .btn-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: rgb(64, 238, 244);
+            border: none;
+            padding: 10px 20px;
+        }
+
+        /* Fix for dropdown clipping on large screens */
+        .navbar-nav .dropdown-menu {
+            left: 50%;
+            transform: translateX(-50%);
+            min-width: 200px;
+            max-width: 250px;
+        }
+
+        /* Custom styles for navbar spacing */
+        .navbar-nav .nav-item {
+            margin: 0 15px; /* Adjust spacing between items */
+        }
+
+        /* Styles for dropdown links */
+        .dropdown-item {
+            white-space: nowrap; /* Prevent line breaks */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light position-relative">
+        <a class="navbar-brand" href="#">Prespa SPA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto lg-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pictures 
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <h6 class="dropdown-header">Header 1</h6>
+                        <a class="dropdown-item" href="#">Item 1</a>
+                        <a class="dropdown-item" href="#">Item 2</a>
+                        <div class="dropdown-divider"></div>
+                        <h6 class="dropdown-header">Header 2</h6>
+                        <a class="dropdown-item" href="#">Item 3</a>
+                        <a class="dropdown-item" href="#">Item 4</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/prespa">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-secondary my-2 my-sm-0" type="button">
+                        <img src="fb.jpg" alt="Search" style="height: 20px;">
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Background Image Section with Text -->
+    <section class="bg-section">
+        <h1>It is not perfect...It is paradise</h1>
+    </section>
+
+    <!-- Two Half-Width Images Section -->
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 half-section">
+                <h2 class="mb-3">Air spa</h2>
+                <img src="Prespa_MK.jpg" alt="Image 1">
+                <button class="btn btn-overlay">Button 1</button>
+            </div>
+            <div class="col-md-6 half-section">
+                <h2 class="mb-3">Lake spa</h2>
+                <img src="Prespa_NASlovna.jpg" alt="Image 2">
+                <button class="btn btn-overlay">Button 2</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Social Media Link -->
+    <footer class="text-center mt-5">
+        <a href="https://www.facebook.com/prespa" target="_blank">
+            <img src="fb.jpg" alt="Facebook" style="height: 30px;">
+        </a>
+    </footer>
+
+    <!-- jQuery and Bootstrap JavaScript -->
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб страница со редица и колони</title>
+    <style>
+        /* Стилови за редицата и колоните */
+        .row {
+            display: flex;
+            background-color: #181818; /* Темно сива позадина за редицата */
+            padding: 10px;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            color: #fff; /* Бел текст */
+        }
+        /* Различни бои за секоја колона */
+        .column:nth-child(1) {
+            background-color: #f10000; /* Црвена */
+        }
+        .column:nth-child(2) {
+            background-color: #00ff00; /* Зелена */
+        }
+        .column:nth-child(3) {
+            background-color: #0000ff; /* Сина */
+        }
+        .column:nth-child(4) {
+            background-color: #ffff00; /* Жолта */
+        }
+        .column:nth-child(5) {
+            background-color: #ff00ff; /* Магента */
+        }
+        /* Прилагодување за мобилни уреди */
+        @media (max-width: 600px) {
+            .row {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">Влатко</div>
+        <div class="column">Никола</div>
+        <div class="column">Марија </div>
+        <div class="column">Филип</div>
+        <div class="column">Марко</div>
+    </div>
+</body>
+</html>
